@@ -7,25 +7,7 @@ import os
 
 # 若需要，可改品类名
 def categoryReplace(data,columnName):
-    data[columnName] = data[columnName].replace({"宠物用品": "家居日用",
-                                                    "纺织品": "家居日用",
-                                                    "家庭用品": "家居日用",
-                                                    "家用清洁用品": "家居日用",
-                                                    "生活电器": "家居日用",
-                                                    "文体休闲": "家居日用",
-                                                    "鞋与配件": "家居日用",
-                                                    "日用清洁": "家居日用",
-                                                    "粮油米面": "粮油干货",
-                                                    "调味干货": "粮油干货",
-                                                    "常温奶": "奶制品",
-                                                    "低温奶": "奶制品",
-                                                    "个人清洁用品": "个护美妆",
-                                                    "计生用品": "个护美妆",
-                                                    "婴儿用品": "母婴类",
-                                                    "婴儿玩具": "母婴类",
-                                                    "婴童寝居": "母婴类",
-                                                    "孕妇产品": "母婴类",
-                                                    "婴儿食品": "母婴类"})
+    data[columnName] = data[columnName].replace({"品类原名":"改后名"})
     
 # 品类排序并新增相应维度的累计列,最好只传入必要字段
 def categoryDataProcessing(data,targetColumn,sumOfCategory):
