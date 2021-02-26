@@ -1,0 +1,17 @@
+{
+    "python.pythonPath": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintEnabled": false,
+    "python.autoComplete.addBrackets":true,
+    "python.autoComplete.extraPaths": [
+        　　　　"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages",
+        　　　　"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\Scripts", 　　],
+    "python.jediEnabled": true,
+    "python.languageServer": "Jedi",
+    "python.analysis.extraPaths": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages",
+        "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python39\\Scripts"
+    ],
+    "python.analysis.completeFunctionParens": true,
+    "editor.tabSize": 4
+}
